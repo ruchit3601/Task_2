@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Register Now</h2>
+            <form id="register" method="post">
+                <label>Name:</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Your Name">
+                <br><br>
+
+                <label>Age:</label>
+                <br>
+                <input type="number" name="age" id="name" placeholder="Enter Your Age">
+                <br><br>
+
+                <label>Email:</label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter Your Email">
+                <br><br>
+
+                <label>Which option best describe you?</label>
+                <br>
+                <select name="dropbox" id="name">
+                    <option value="Student">Student</option>
+                    <option value="Mentor">Mentor</option>
+                    <option value="Faculty">Faculty</option>
+                    <option value="Principal">Principal</option>
+                  </select>
+                <br><br>
+
+                <label>Woude you recommend GeeksForGeek for your friend?</label>
+                <br>
+                <input type="radio" name="radio" id="yes">
+                <label>Yes</label>
+                <br>           
+                <input type="radio" name="radio" id="no">
+                <label>No</label>
+                <br>
+                <input type="radio" name="radio" id="maybe">
+                <label>Maybe</label>
+                <br><br>
+
+                <label>Language & Framework Known?</label>
+                <br>
+                <input type="checkbox" id="c" name="lang">
+                <label> c</label><br>
+                <input type="checkbox" id="c++" name="lang">
+                <label> c++</label><br>
+                <input type="checkbox" id="java" name="lang">
+                <label> java</label>
+                <br><br>
+
+                <input type="submit" value="Submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
